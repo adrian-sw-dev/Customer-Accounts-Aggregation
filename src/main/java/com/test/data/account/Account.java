@@ -7,6 +7,7 @@ import javax.persistence.ManyToOne;
 import com.test.data.customer.Customer;
 
 @Entity
+@Table(name = "accounts")
 public class Account {
 
 	@Id
