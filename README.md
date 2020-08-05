@@ -15,11 +15,11 @@ Endpoint prefix: http://localhost:8080
 
 - /login authenticate a customer in the application with an username in the request body (POST request)
  
- Example:
+   Example:
  {
     "username" : "john"
  }
  
- This endpoint generate a jwt token that can be used later to obtain accounts and transaction for the authenticated user / customer.
+   This endpoint generate a jwt token that can be used later to obtain accounts and transaction for the authenticated user / customer.
 
 - / accounts, /transactions can be executed using the generated jwt token as a value for Authorization key in the Header of the request (GET requests)
