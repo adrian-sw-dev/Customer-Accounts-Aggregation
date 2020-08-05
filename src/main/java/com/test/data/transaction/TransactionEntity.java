@@ -3,6 +3,7 @@ package com.test.data.transaction;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 
 import com.test.data.account.Account;
 
