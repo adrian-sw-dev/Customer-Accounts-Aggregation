@@ -2,7 +2,7 @@
 
 The application need to be imported as a maven project in the IDE.
 
-Java 11 version is used. You cand change that by modify <java.version> tag in the pom.xml file.
+Java 11 version is used. You can change that by modify <java.version> tag in the pom.xml file.
 
 The application uses a embedded database (apache derby) to store information.
 There are 3 tables in database:  customers, accounts and transactions.
