@@ -8,7 +8,7 @@ The application uses an embedded database (apache derby) to store information.
 There are 3 tables in database:  customers, accounts and transactions.
 
 In this project we have an API that contains 4 endpoints.
-Postman is a recommended tool for running these endpoints.
+Postman is a recommended tool for running these endpoints. 
 Endpoint prefix: http://localhost:8080
 
 - /init need to be executed first in order to load the database with some default values (POST request)
