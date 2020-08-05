@@ -7,6 +7,7 @@ import javax.persistence.ManyToOne;
 import com.test.data.account.Account;
 
 @Entity
+@Table(name = "transactions")
 public class TransactionEntity {
 
 	@Id
