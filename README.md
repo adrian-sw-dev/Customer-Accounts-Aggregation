@@ -4,7 +4,7 @@ The application need to be imported as a maven project in the IDE.
 
 Java 11 version is used. You can change that by modify <java.version> tag in the pom.xml file.
 
-The application uses an embedded database (apache derby) to store information.
+The application uses an embedded database (Apache Derby) to store information.
 There are 3 tables in database:  customers, accounts and transactions.
 
 In this project we have an API that contains 4 endpoints.
